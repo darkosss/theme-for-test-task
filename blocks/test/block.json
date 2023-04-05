@@ -1,0 +1,31 @@
+{
+    "name": "darko/test",
+    "title": "Test Block",
+    "description": "A custom test block.",
+    "style": [ "file:./style.css" ],
+    "category": "formatting",
+    "icon": "smiley",
+    "keywords": ["test"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "blocks/test/block.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": true,
+        "anchor": true,
+        "alignContent": true,
+        "jsx": true,
+        "color": {
+            "text": true,
+            "background": true,
+            "gradients": true,
+            "link": true
+        },
+        "alignText": true,
+        "fullHeight": false
+    },
+    "attributes": {
+    },
+    "align": "full"
+}
